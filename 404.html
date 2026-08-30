@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Pagina non trovata</title>
+  <script>
+    (() => {
+      const normalized = location.pathname.replace(/\/+$/, '').toLowerCase();
+      if (normalized === '/leo') {
+        location.replace(`/leo/${location.search}${location.hash}`);
+      }
+    })();
+  </script>
+  <style>
+    html,body{height:100%;margin:0}body{display:grid;place-items:center;background:#080b16;color:#eef3ff;font:18px monospace;text-align:center}a{color:#7db8ff}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>404</h1>
+    <p>Questa pagina non esiste.</p>
+    <p><a href="/">Torna alla pagina iniziale</a></p>
+  </main>
+</body>
+</html>
