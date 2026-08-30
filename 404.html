@@ -8,8 +8,8 @@
   <script>
     (() => {
       const normalized = location.pathname.replace(/\/+$/, '').toLowerCase();
-      if (normalized === '/leo') {
-        location.replace(`/leo/${location.search}${location.hash}`);
+      if (normalized === '/leo' || normalized === '/leoenicole') {
+        location.replace(`/leoenicole/${location.search}${location.hash}`);
       }
     })();
   </script>
